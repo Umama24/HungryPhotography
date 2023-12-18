@@ -1,0 +1,152 @@
+/* Medium Layout */
+@media only screen and (min-width:992px) and (max-width:1170px){
+    .container{
+        width: 970px;
+    }
+    .facilities, .about-title, .maps {
+        justify-content: space-evenly;
+    }
+    .single-facilities {
+        flex-basis: 36%;
+        margin-bottom: 30px;
+    }
+    .charcuterie-img, .salad-img, .about-me-img, .maps iframe {
+        flex-basis: 40%;
+    }
+    .charcuterie-info, .salad-info, .about-me-info {
+        flex-basis: 48%;
+    }
+    .about-title p {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .single-fav {
+        flex-basis: 31%;
+    }
+    .maps h2 {
+        flex-basis: 44%;
+        font-size: 56px;
+    }
+}
+
+/* Tablet Layout */
+@media only screen and (min-width:768px) and (max-width:991px){
+    .container{
+        width: 750px;
+    }
+    .abouts, .subscribes {
+        flex-flow: column-reverse;
+        padding: 0 40px;
+        gap: 45px;
+    }
+    .about-img img {
+        border-top-right-radius: 330px;
+        border-top-left-radius: 330px;
+    }
+    .single-service {
+        flex-basis: 48%;
+        margin-bottom: 30px;
+    }
+    .facilities {
+        justify-content: space-evenly;
+    }
+    .single-facilities {
+        flex-basis: 44%;
+        margin-bottom: 30px;
+    }
+    .about-title img {
+        border-top-right-radius: 370px;
+        border-top-left-radius: 370px;
+    }
+    .about-title {
+        flex-flow: column;
+        gap: 40px;
+    }
+    .cards {
+        gap: 30px;
+    }
+    .single-card {
+        flex-basis: 48%;
+    }
+    .charcuterie-info, .salad-info, .about-me-info {
+        padding: 0 40px;
+    }
+    .single-fav .btn {
+        padding: 15px;
+    }
+    .questions input, .questions select{
+        width: 44%;
+    }
+    .maps{
+        flex-flow: column;
+        gap: 35px;
+        padding: 0 30px;
+    }
+}
+
+/* MobileLayout */
+@media only screen and (max-width:767px){
+    .container{
+        width: 350px;
+    }
+    .header {
+        flex-direction: column;
+        margin: 50px 0;
+    }
+    .abouts, .subscribes {
+        flex-flow: column-reverse;
+        padding: 0 20px 0 10px;
+    }
+    .section-title h2 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+    .section-title h4 {
+	    font-size: 28px;
+    }
+    .email-input input, .about-info .btn {
+	    width: 100%;
+    }
+    .cards, .blog {
+        flex-flow: column;
+        gap: 30px;
+    }
+    .about-title, .photos {
+        flex-flow: column;
+    }
+    .facility-area {
+        padding: 30px 0;
+    }
+    .facilities, .maps {
+        flex-flow: column;
+        padding: 0 20px 0 10px;
+        gap: 30px;
+    }
+    .about-title p {
+        font-size: 22px;
+        margin-top: 25px;
+        margin-bottom: 30px;
+        line-height: 35px;
+    }
+    .salad {
+        flex-direction: column-reverse;
+    }
+    .about-me {
+        padding: 0 20px 0 10px;
+    }
+    .about-title h2 {
+        font-size: 68px;
+        margin: 20px 0;
+    }
+    .fav {
+        flex-flow: column;
+        gap: 50px;
+    }
+    .questions {
+        width: 100%;
+        padding: 20px;
+    }
+    .questions input, .questions select, .questions textarea {
+        width: 100%;
+    }
+}
